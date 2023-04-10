@@ -1,0 +1,1219 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+
+}
+.subli{
+	text-decoration:none;
+	
+}
+
+.center{
+	max-width: 1280px;
+	padding:0 2%;
+	margin:0 auto;
+	
+}
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/*Header*/
+
+
+.header-info{
+	background-color: #222222;
+	width: 100%;
+	height: 38px;
+}
+
+.header-info h5{
+	float: left;
+	margin: 10px ;
+	font-size: 13px;
+	cursor: pointer;
+  	font-family: Helvetica, Arial, sans-serif;
+	color: white;
+
+}
+.header-info i{
+	float: left;
+	margin: 10px ;
+	font-size: 15px;
+	color: white;
+
+}
+
+header{
+	background: black;
+	height:80px;
+	border-bottom:4px solid #ab1304 ;
+}
+
+header h2{
+	
+	color: white;
+	margin-top: 28px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	letter-spacing: 5px;
+	
+}
+
+header h3{
+	color: white;
+	float: left;
+	margin-left:80px;
+	margin-top: 30px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+i{
+	display: none;
+	
+}
+header h3:hover{
+	border-bottom: 2px solid #ab1304;
+	cursor: pointer;
+}
+
+/*Banner Principal*/
+
+section.banner-container{
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+
+.banner-single{
+	position: absolute;
+
+	
+	width: 100%;
+	height:500px;
+	
+	background-size: cover;
+	background-position: center;
+}
+
+.banner-single img{
+	position: absolute;
+	width: 100%;
+	height:100%;
+	background-size: cover;
+	background-position: center;
+}
+
+/*Home Filme em cartaz*/
+
+
+
+section.Cartaz{
+
+	height:550px; 
+	padding: 70px;
+	background:#222222;
+	color:white;
+	text-align: center;
+	
+}
+
+.Cartaz label{
+	font-size: 50px;
+	font-family: Arial, sans-serif;
+}
+
+.Cartaz h5{
+	font-size: 18px;
+	font-family: Arial, sans-serif;
+	margin-bottom: 20px;
+}
+
+.Cartaz h5:hover{
+	color: #ab1304;
+}
+
+
+section.Cartaz p{
+
+	font-family:Times New Roman;
+	padding: 20px 0 10px 0;
+	font-size: 35px;
+	color:white;
+	text-align: center;
+}
+
+section.Cartaz a{
+
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 11px;
+	text-align: center;
+}
+
+
+.container {
+
+	height: 330px;
+	background: #222222;
+	display:flex;
+	flex-direction: row;
+	padding: 	10px 0 0 0;
+	overflow-x: scroll;
+
+
+}
+
+
+.box { 
+	width:200px;
+	height: 300px; 
+	
+	background:  transparent;
+	background-repeat: no-repeat; 
+  	background-size: cover;
+	margin: 2px;
+	border-radius: 10px;
+	border:0px;
+}
+
+
+
+.box img{
+	width: 200px;
+	height: 300px;
+}
+
+.container::-webkit-scrollbar {
+	width: 10px; 
+	height: 8px;
+	margin: 0px;              
+}
+
+.container::-webkit-scrollbar-track {
+ 	background: #222222;        
+}
+
+.container::-webkit-scrollbar-thumb {
+	background-color: #616161;    
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+margin: 0px;
+height: auto;
+
+}
+
+
+
+
+footer{
+	background:#0D0D0D;
+	height: 300px;
+	color: white;
+	text-align: center;
+	padding:25px;
+	
+	
+
+
+}
+footer a{
+	
+	color: white;
+	padding: 25px 15px;
+	font-family: Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	font-size: 15px;
+
+}
+
+
+
+.info{
+    width: 20%;
+    height: 150px;
+    background-color:transparent;
+    float: left;
+    text-align: center;
+	border-bottom:1px solid white;
+	margin-bottom: 20px;
+	
+    
+}
+
+.info i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 100px;
+    padding: 10px;
+    border-radius: 100%;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border: 3px solid white;
+    color: white;
+    background-color: #0D0D0D;
+	
+}
+
+.info h4{
+    color: white;
+    margin-bottom: 5px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.info h3{
+    color: white;
+    margin-bottom: 5px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+
+.redes{
+	background:#ab1304;
+	height: 70px;
+	
+	
+	float: center;
+}
+
+.redes i{
+	font-size: 15px;
+}
+.redes-t{
+	width: 200px;
+height: 50px;
+background:#ab1304;margin: 0 21px;
+text-align: center;
+color: white;
+font-family: Helvetica, Arial, sans-serif;
+	 text-decoration: none;
+	 font-size: 15px;
+	 padding: 15px;
+
+
+}
+
+section.Produtos{
+
+
+	width: 100%;
+
+	height: 800px;
+	padding-top: 50px; 
+	
+	background:#222222;
+	
+	text-align: center;
+
+}
+
+
+
+
+.mais {
+  height: 500px;
+  width: 100%;
+  color:white;
+
+  background-color: transparent	;
+  float:left;
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin:  0 5px 0 4px;
+ 
+  border-radius: 10px;
+ 
+  
+}
+.mais-img {
+  height: 500px;
+  width: 100%;
+  color:white;
+  padding-top: 350PX;
+  background-color:  transparent	;
+  background-repeat: no-repeat;
+  background-size: 100%, 350px;
+  border-radius: 10px;
+  
+ 
+  
+}
+.mais-cont {
+  height: 150px;
+  width: 100%;
+  color:white;
+  padding: 30px;
+  opacity: 90%;
+  background-color:  #ab1304;
+  background-repeat: no-repeat;
+  background-size: auto;
+  border-radius: 10px;
+
+}
+
+.mais-cont h3{
+	float: right;
+	font-size: 25px;
+    margin-top: 45px;
+	margin-left: 30px;
+	border: 1px solid white;
+	padding: 10px;
+	font-family: Helvetica, Arial, sans-serif;
+	border-radius: 50px;
+	color: white;
+	background-color: transparent;
+	
+  }
+
+.mais-cont h3:hover{
+	
+	border: 1px solid white;
+	color: #ab1304;
+	background-color: white;
+	
+  }
+
+
+#texto{
+	
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 50px;
+	position: absolute;
+	
+}
+
+
+
+
+
+
+.titulo {
+	background: #0D0D0D;
+	text-align: center;
+	
+
+}
+.titulo label{
+
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 30px; 
+    color: white;
+}
+
+.titulo a{
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px; 
+    color: red;
+    margin: 0 0 0 5px;
+    text-decoration: none;
+}
+
+
+
+
+
+/* Css da pagina Cartaz*/
+
+
+
+
+.filme-conteudo{
+	width: 1100px;
+	height: auto;
+	background: transparent;
+	margin: 10px 75px;
+	padding: 20px;
+	overflow-y: scroll;
+
+}
+
+.poster{
+	width: 250px;
+	height: 350px;
+	background: transparent;
+	margin: 5px;
+	border:0;
+	border-radius: 10px ;
+}
+
+
+
+
+.poster img{
+width: 251px;
+	height: 351px;
+
+background: transparent;
+border:1px;
+
+}
+.poster img:hover {
+	opacity: 0.6;
+
+}
+
+.filme-conteudo::-webkit-scrollbar {
+  width: 10px; 
+  height: 8px;
+  margin: 0px;              
+}
+
+.filme-conteudo::-webkit-scrollbar-track {
+  background: #0D0D0D;        
+}
+
+.filme-conteudo::-webkit-scrollbar-thumb {
+  background-color: #616161;    
+     
+}
+
+
+.anuncio{
+	width: 100%;
+	height: 100px;
+	background:#212121;
+	margin: 10px 0;
+	padding: 20px;
+	border-radius: 15px;
+	
+
+}
+
+
+
+
+.anuncio b{
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px; 
+    color: white;
+	
+
+}
+.anuncio a{
+	width: 250px;
+	height: 60px;
+	background: blue;
+	float: right;
+	transition-duration: 0.4s;
+	background-color:transparent;	
+	  color: white;
+	  font-family: Helvetica, Arial, sans-serif;
+	  border-radius: 25px;
+	  border: 2px solid white;
+	  font-weight: 	bold;
+	  text-align: center;
+	  font-size: 15px; 
+	  padding-top: 18px;
+	  text-decoration: none;
+	
+
+}
+
+
+.anuncio a:hover {
+  background-color: white; /* Green */
+  color: #ab1304;
+}
+
+.top-cartaz a{
+
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 35px; 
+    color: white;
+	text-align: center;
+	
+}
+
+.top-cartaz {
+	margin-top:100px; 
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px; 
+    color: white;
+	text-align: center;
+	
+}
+
+
+
+
+
+
+/* Css da pagina Filme*/
+
+
+
+
+.filme-banner{
+	width: 100%;
+	height: 400px;
+	background: transparent;
+
+}
+
+.filme-banner img{
+	width: 100%;
+	height: 400px;
+	background: transparent;
+
+}
+.filme{
+	
+	width: 100%;
+	height: 300px;
+	background: red;
+	
+}
+ 
+.principal{
+
+	
+	width: 100%;
+	height: 2300px;
+	background: transparent;	
+	margin-top: 20px;
+
+ }
+
+ .principalB{
+
+	
+	width: 100%;
+	height: 1750px;
+	background: transparent;	
+	margin-top: 20px;
+
+ }
+
+ .principalB h1{
+
+	
+	
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 35px; 
+    color: white;
+    font-weight: normal;	
+ }
+
+ .principal h1{
+
+	
+	
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 35px; 
+    color: white;
+    font-weight: normal;	
+ }
+
+.filme-capa{
+	width: 200px;
+	height: 300px;
+	background: transparent;
+	float: left;
+	margin: 	0 10px 0 0;
+	
+}
+
+.filme-capa img{
+	width: 100%;
+	height: 280px;
+	
+	
+}
+.filme-info{
+
+	
+	width: 100%;
+	height: 300px;
+	background: transparent;
+	padding: 20px 0;
+
+	
+}
+
+.filme-info p{
+
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 35px; 
+    color: white;
+	text-align: left;
+
+	
+}
+.filme-info button{
+	
+	margin:130px 10px 0 0px;
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px; 
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 5px;
+  	color: white;
+  	font-weight: bold;
+  	border: 2px solid white;
+	
+}
+
+.filme-informacao{
+	width: 50%;
+	height: 350px;
+	background: transparent;
+	float: 	left;
+	padding: 10px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: white;
+	margin:20px 0 20px 0;
+
+
+	
+}
+.filme-informacao i{
+	
+	
+	color: red;
+	margin: 20px 0 0 0;
+	font-size: 20px;
+
+
+	
+}
+.filme-informacao h1{
+	margin: 0 0 15px 0;
+	 font-weight: normal;
+
+
+	
+}
+.filme-informacao a{
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px; 
+    color: white;
+    
+
+	
+}
+
+
+.filme-informacao b{
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px; 
+    color: white;
+    margin: 5px 0;
+    padding-top: 10px;
+
+	
+}
+
+.filme-sinopse{
+	font-family: Helvetica, Arial, sans-serif;
+	width: 50%;
+	height: 350px;
+	background: transparent;
+	float: right;
+	padding: 10px;
+	font-size: 16px;
+	color: white;
+	margin:20px 0 20px 0;	
+}
+
+.filme-sinopse h1{
+	margin: 0 0 35px 0;
+	 font-weight: normal;
+}
+.filme-trailer{
+	width: 100%;
+	height: 500px;
+	background: green;
+	margin: 20px 0 50px 0;
+	float: right;
+
+}
+.container-mais {
+	position: absolute;
+width: 1000px;
+height: 260px;
+background: #0D0D0D;
+display:flex;
+flex-direction: row;
+margin: 0 110px 30px 110px;
+padding: 	10px 0 0 0;
+overflow-x: scroll;
+
+
+}
+
+
+
+
+.container-mais::-webkit-scrollbar {
+  width: 10px; 
+  height: 8px;
+  margin: 0px;              
+}
+
+.container-mais::-webkit-scrollbar-track {
+  background: #0D0D0D;        
+}
+
+.container-mais::-webkit-scrollbar-thumb {
+  background-color: #616161;    
+     
+}
+
+
+
+.box-mais  { 
+	min-width:100px;
+	min-height: 200px; 
+	width: 150px;
+	height: 230px;
+	background:  #ab1304;
+	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover;
+	margin: 0 55px 0 0px;
+	border-radius: 10px;
+	border:0px;
+}
+
+
+
+.box-mais  img{
+width: 150px;
+height: 230px;
+border-radius: 10px ;
+
+}
+
+/* Css da pagina Cardapio*/
+
+.cardapio-Produto{
+	width: 100%;
+	height: 250px;
+	background: #f5f5f5;
+	padding: 10px 0;
+}
+
+.cardapio-tamanho{
+	width: 100%;
+	height: auto; 
+	background:   #0D0D0D;
+	padding: 10px 0;
+	
+	overflow-y: scroll;
+}
+.cardapio-info{
+	width: 400px;
+	height: 230px;
+	background:  transparent;
+	float: left;
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 40px; 
+    color: #757575;
+    text-align: center;
+   	padding-top: 95px;    
+
+}
+.cardapio-info-sab{
+	width: 200px;
+	height: 230px;
+	background:  #eeeeee;
+	float: right;
+	margin: 0 0 0 5px;
+	padding: 5px;
+}
+
+.cardapio-info-sabo{
+	width: 150px;
+	height: 150px;
+	background:  transparent;
+	float: right;
+	margin: 32.5px 5px;
+	padding: 5px;
+}
+.cardapio-desc{
+	width: 190px;
+	height: 50px;
+	background:  transparent;
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px; 
+    color: #757575;
+    text-align: center;
+   	padding-top: 12.5px;  
+}
+.cardapio-img{
+	width: 166px;
+	height: 166px;
+	background:  green;
+	margin: 2px 12px 2px 12px;
+	border-radius: 100%;
+}
+
+.cardapio-img img{
+	width: 100%;
+	height: 100%;
+
+	border-radius: 100%;
+	
+}
+.cardapio-info-sabo img{
+	width: 100%;
+	height: 100%;
+
+	border-radius: 100%;
+}
+
+.cardapio-tamanho-sab{
+	width: 250px;
+	height: 300px;
+	background:   #f5f5f5;
+	border-radius: 10px;
+	float: left;
+	margin: 5px 18px 5px 18px;
+	
+}
+
+.cardapio-tamanho-desc{
+	width: 100%;
+	height: 100px;
+	background:  #ab1304;
+	font-family: Helvetica, Arial, sans-serif;
+	border-radius: 0 0 10px 10px;
+    font-size: 25px; 
+    color: white;
+    text-align: center;
+	padding: 20px;
+}
+.cardapio-tamanho-img{
+	width: 100%;
+	height: 200px;
+	background:  transparent;
+	margin: 0 0 5px 0;
+	border-radius: 10px;	
+}
+
+.cardapio-tamanho-img img{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	
+	
+	
+}
+.titulo-tam{
+	width: 100%;
+	height: 50px;
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px; 
+    color: #757575;
+    text-align: center;
+	padding: 5px;
+
+}
+.cardapio-tamanho::-webkit-scrollbar {
+  width: 0px; 
+  height: 8px;
+  margin: 0px;              
+}
+
+/* Css da pagina Cardapio*/
+
+
+.combo{
+	width: 100%;
+	height: 325px;
+	background:  #f5f5f5;
+	margin: 5px 0;
+	
+	border-radius: 25px;
+	
+}
+.combo-name{
+	width:50%;
+	height: 100px;
+	background: #ab1304	;
+	float: left;
+	
+	text-align:left;
+	padding: 	40px;
+	
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px; 
+    color:white;
+    border-radius: 25px 0 0 0;
+    
+}
+.combo-name a{
+	
+	text-align:right;
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px; 
+    color: white;
+    
+}
+.combo-price{
+	width:50%;
+	height: 100px;
+	background: #ab1304	;
+	float: right	;
+	
+	text-align:right;
+	padding: 	40px;
+	
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px; 
+    color: white;
+    border-radius:  0 25px 0 0;
+}
+.combo-desc{
+	width: 40%;
+	height:200px;
+	margin: 5px 5px;
+	background:  #f5f5f5	;
+	float: left;
+	text-align:right;
+	padding: 	35px 15px;
+	
+	
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px; 
+    color: #ab1304;
+    text-transform: uppercase;
+}
+.combo-pic{
+	width: 100%;
+	height: 190px;
+	
+	background:  #ab1304	;		
+	float: center;
+	border-radius:   25px 25px 0 0;
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px; 
+    color: white;
+
+	
+}
+
+.combo-pic-info{
+	width: 180px;
+	height: 180px;
+	
+	background:  transparent;	
+	margin: 5px 9.6px;
+	border-radius: 100%;
+	float: left;
+}
+.combo-pic-info img{
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+}
+.cardapio-combo{
+	width: 400px;
+	height: 230px;
+	background:  transparent;
+	float: center;
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 40px; 
+    color: #757575;
+    text-align: center;
+   	padding-top: 95px;    
+
+}
+
+
+/*Tela de Parceiros*/
+
+.parceiros{
+	width: 100%;
+	height: 500px;
+	background:  blue;
+}
+
+
+
+
+.box-login{
+	max-width: 600px;
+	width: 95%;
+	padding: 60px 2%;
+	background: white;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	box-shadow: 5px 10px s;
+
+
+}
+
+
+
+/* Sessao */
+
+
+
+.sessoes{
+	
+	margin-top: 10px; 
+	width: 100%;
+	min-height:  490px;
+	background:   #0D0D0D;
+	margin: 0 0 100px 0;
+	
+
+	
+}
+
+.sessoes-dia{
+	width: 100%;
+	height: 70px;
+	float: left;
+	background:   #212121;
+	border-top: 1px solid black;
+
+
+
+	
+}
+
+
+
+.desc-sessao{
+	width: 70%;
+	height: 70px;
+	background:   #ab1304 ;	
+	float: left;
+	border-radius: 	10px  10px 0 0;
+	
+	
+	padding-top:15px;
+	font-weight: 	bold; 	 
+	font-family: Helvetica, Arial, sans-serif;
+    font-size:30px; 
+    color: white;
+    text-align: center;
+
+
+	
+}
+.dias{
+	width: 1050px;
+	height: 70px;
+	background:  transparent;
+	float: right;
+}
+.salas{
+	width: 10%;
+	height: 70px;
+	background:  transparent;
+	float: left;
+	font-family: Helvetica, Arial, sans-serif;
+    font-size:15px; 
+    color: white;
+    text-align: center;
+   	padding-top: 30px;
+   	 
+   	margin: 0px 10px 0 0;
+   	
+}
+
+.horarios-salas{
+	width: 100%;
+	height: 70px;
+	background:  #212121 ;
+	
+
+	
+}
+.horarios{
+	width: 8%;
+	height: 40px;
+	line-height: 40px;
+	background:  transparent;
+	float: left;
+	text-align: center;
+	margin: 15px 2px;
+	border: 1px solid white;
+	font-family: Helvetica, Arial, sans-serif;
+    font-size:12px;
+    font-weight: bold; 
+    color: white;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+.idioma{
+	width: 5%;
+	height: 30px;
+	background:  red;
+	float: right;
+	margin:	20px 30px;
+	font-family: Helvetica, Arial, sans-serif;
+    font-size:12px;
+    font-weight: bold; 
+    color: white;
+    text-align: center;
+    padding: 	  9px 0;
+    border-radius: 	10px;
+
+}
+
+.dia-btn{
+	width: 30%;
+	height: 70px;
+	background:   #212121 ;	
+	float: right;
+	padding:0 50px;
+	border-radius: 	10px 10px 0 0;
+}
+
+.dia-btn button{
+	margin:  20px 30px;
+	width: 100px;
+	height: 30px;
+	background:  transparent;	
+	border: 1px solid white;
+	font-family: Helvetica, Arial, sans-serif;
+    font-size:12px;
+    font-weight: bold; 
+    color: white;
+    border-radius: 	10px;
+  
+}
+
+
+
